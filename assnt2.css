@@ -1,0 +1,35 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0px;
+}
+
+h1 {
+	color: pink;
+	font-size: 50px;
+	margin: 0px;
+	padding: 10px;
+}
+.style-one {
+	color: green;
+}
+.style-two {
+	color: red;
+}
+a.style-two {
+	color: yellow;
+}
+.style-one.style-two a {
+	color: lightblue;
+}
+
+.style-one {
+	display: inline;
+}
+
+.style-two {
+	margin-bottom: 5em;
+	background: grey;
+	padding: 20px;
+}
